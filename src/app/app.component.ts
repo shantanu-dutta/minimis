@@ -23,6 +23,6 @@ export class AppComponent implements OnInit {
 
   private initialize() {
     this.showMenu = false;
-    this.darkModeActive = false;
+    this.darkModeActive = true;
   }
 }

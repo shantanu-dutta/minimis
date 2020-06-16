@@ -6,7 +6,11 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./weather-card.component.css"],
 })
 export class WeatherCardComponent implements OnInit {
-  darkMode = false;
+  darkMode = true;
+  condition = "Clouds";
+  currentTemp = 15;
+  minTemp = 6;
+  maxTemp = 21;
 
   constructor() {}
 

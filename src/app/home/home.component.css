@@ -1,0 +1,6 @@
+.main__container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 1fr;
+  justify-content: space-around;
+}
